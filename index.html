@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, " />
+    <link rel="shortcut" href="assets/img/favicon.png" type="image/x-icon" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Responsive Web Design</title>
+  </head>
+  <body>
+    <!-- ============ L O A D E R ================== -->
+    <div class="load" id="load">
+      <img src="assets/img/loadgif.gif    " alt="" class="load__gif" />
+    </div>
+    <!-- ============ H E A D E R ================== -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/logo.png" alt="" class="nav__logo-img" />
+          Coding.
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#specialty" class="nav__link active-link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#premium" class="nav__link">Offres</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <!-- TOGGLE BUTTON -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ============ M A I N  ================== -->
+    <main class="main">
+      <section class="home grid" id="home">
+        <div class="home__container">
+          <div class="home__content container">
+            <h1 class="home__title">
+              Création Web<br />Formation Web<span>.</span>
+            </h1>
+            <p class="home__description">Accès au web en mode facile</p>
+            <div class="home__data">
+              <div class="home__data-group">
+                <h2 class="home__data-number">SEO</h2>
+                <h3 class="home__data-title">Audit</h3>
+                <p class="home__data-description">
+                  Le référencement naturel pour être visible dans la sphère Web
+                </p>
+              </div>
+
+              <div class="home__data-group">
+                <h2 class="home__data-number">Accessibility</h2>
+                <h3 class="home__data-title">Optimiser l'accès</h3>
+                <p class="home__data-description">
+                  Rendre le web lisible et compréhensible pour tous
+                </p>
+              </div>
+            </div>
+
+            <a href="#specialty">
+              <img src="assets/img/scroll.png" alt="" class="home__scroll" />
+            </a>
+          </div>
+        </div>
+        <img src="assets/img/coding-home.jpg" alt="" class="home__img" />
+      </section>
+
+      <!-- ====== SPECIALTY =============-->
+
+      <section class="specialty section container" id="specialty">
+        <div class="specialty__container">
+          <div class="specialty__box">
+            <h2 class="section__title">Technologies maitrisées</h2>
+            <!--
+            <div>
+              <a href="#" class="button specialty__button"> Voir plus </a>
+            </div>
+            -->
+          </div>
+
+          <div class="specialty__category">
+            <div class="specialty__group">
+              <img
+                src="assets/img/specialty-html.png"
+                alt=""
+                class="specialty__img"
+              />
+              <h3 class="specialty__title">HTML</h3>
+              <p class="specialty__description">
+                Le HTML constitue la structure du site web. L'utilisation de
+                balises sémantiques et de best practices est primordiale.
+              </p>
+            </div>
+            <div class="specialty__group">
+              <img
+                src="assets/img/specialty-css.png"
+                alt=""
+                class="specialty__img"
+              />
+              <h3 class="specialty__title">CSS</h3>
+              <p class="specialty__description">
+                Le CSS est la couche design au HTML. Le CSS est devenu un outil
+                magique proposant une palette d'effets à votre site web.
+              </p>
+            </div>
+            <div class="specialty__group">
+              <img
+                src="assets/img/specialty-js.png"
+                alt=""
+                class="specialty__img"
+              />
+              <h3 class="specialty__title">Javascript</h3>
+              <p class="specialty__description">
+                Le JavaScript dynamise le site web. De la validation de
+                formulaire à la création de jeux, le JavaScript rend le site web
+                interactif.
+              </p>
+            </div>
+            <div class="specialty__group">
+              <img
+                src="assets/img/specialty-chrono.png"
+                alt=""
+                class="specialty__img"
+              />
+              <h3 class="specialty__title">Webperf</h3>
+              <p class="specialty__description">
+                La rapidité de chargement d'un site web est capitale. C'est le
+                résultat direct d'un site web conçu avec les bons outils.
+              </p>
+            </div>
+            <div class="specialty__group">
+              <img
+                src="assets/img/specialty-seo.png"
+                alt=""
+                class="specialty__img"
+              />
+              <h3 class="specialty__title">SEO</h3>
+              <p class="specialty__description">
+                Le contenu est roi. Votre site doit être riche et original en
+                information. Les moteurs de recherche sont exigeants sur les
+                bonnes pratiques du W3C.
+              </p>
+            </div>
+            <div class="specialty__group">
+              <img
+                src="assets/img/specialty-accessibility.webp"
+                alt=""
+                class="specialty__img"
+              />
+              <h3 class="specialty__title">Accessibility</h3>
+              <p class="specialty__description">
+                L'accessibilité du web pour tous est une notion importante.
+                Malentendants, malvoyants... Chacun doit profiter au maximum de
+                son expérience utilisateur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========  PRODUCTS =============== -->
+      <section class="products section" id="products">
+        <div class="products__container container">
+          <h2 class="section__title">Les produits web de choix</h2>
+          <ul class="products__filters">
+            <li
+              class="products__item products__line active-product"
+              data-filter=".delicacies"
+            >
+              <h3 class="products__title">Création Site Web</h3>
+              <span class="products__stock">4 étapes</span>
+            </li>
+
+            <li class="products__item products__line" data-filter=".seo">
+              <h3 class="products__title">SEO Optimization</h3>
+              <span class="products__stock">4 étapes</span>
+            </li>
+
+            <li class="products__item" data-filter=".accessibility">
+              <h3 class="products__title">Web Accessibility</h3>
+              <span class="products__stock">6 étapes</span>
+            </li>
+          </ul>
+
+          <div class="products__content grid">
+            <!-- ============= New Coding 1 delicacies==============-->
+            <article class="products__card delicacies">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-html-1.png"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Réservation nom domaine</h2>
+                <p class="products__description">
+                  L'URL est le premier élément à choisir avec grand soin. Il
+                  définit la marque du site web.
+                </p>
+                <button class="button products__button">
+                  <span class="step-building">1</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card delicacies">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-html-2.png"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Wireframe</h2>
+                <p class="products__description">
+                  Cette ébauche du futur site s'appelle aussi maquette en fil de
+                  fer. Il donne une idée de l'aspect du site web.
+                </p>
+                <button class="button products__button">
+                  <span class="step-building">2</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card delicacies">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-html-3.png"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Maquette Web validation</h2>
+                <p class="products__description">
+                  La maquette finale est définie sur Figma et ensuite codée en
+                  HTML, CSS et JavaScript.
+                </p>
+                <button class="button products__button">
+                  <span class="step-building">3</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card delicacies">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-html-4.png"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Livraison website</h2>
+                <p class="products__description">
+                  Le site web est alors développé en adoptant l'ensemble des
+                  standards W3C.
+                </p>
+                <button class="button products__button">
+                  <span class="step-building">4</span>
+                </button>
+              </div>
+            </article>
+
+            <!-- ============= SEO Optimization 2 coffee==============-->
+            <article class="products__card seo">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-seo-1.png"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Audit SEO complète</h2>
+                <p class="products__description">
+                  Détecter l'état du SEO en l'état. L'audit permettra de
+                  connaître les points à améliorer.
+                </p>
+                <button class="button products__button">
+                  <span class="step-building">1</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__card seo">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-seo-22.png"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Stratégie adoption</h2>
+                <p class="products__description">
+                  Adopter un plan pour définir les cibles à atteindre.
+                </p>
+                <button class="button products__button">
+                  <span class="step-building">2</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__card seo">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-seo-33.png"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Mise en place</h2>
+                <p class="products__description">
+                  Application des règles principales SEO. Vérification de
+                  contenu, balises, attributs...
+                </p>
+                <button class="button products__button">
+                  <span class="step-building">3</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__card seo">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-seo-4.png"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Résultats</h2>
+                <p class="products__description">
+                  Export de statistiques et graphiques pour afficher le bilan de
+                  l'optimisation SEO.
+                </p>
+                <button class="button products__button">
+                  <span class="step-building">4</span>
+                </button>
+              </div>
+            </article>
+
+            <!-- ============= Web Accessibilit 3 cake==============-->
+            <article class="products__card accessibility">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-accessibility-1.webp"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Le web pour tous</h2>
+                <p class="products__description">
+                  Environ 16 % des internautes ont des difficultés pour naviguer
+                  sur la toile. Il est primordial de considérer cette réalité
+                  dans tout projet web.
+                </p>
+
+                <button class="button products__button">
+                  <span class="step-building">1</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__card accessibility">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-accessibility-2.png"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">W3C</h2>
+                <p class="products__description">
+                  Tout site web doit se conformer aux prinicpales règles du W3C.
+                  La notation est A, AA et AAA; AA étant acceptable.
+                </p>
+
+                <button class="button products__button">
+                  <span class="step-building">2</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__card accessibility">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-accessibility-3.png"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Contraste couleur</h2>
+                <p class="products__description">
+                  Une règle simple est de privilégier un contraste de couleur
+                  important entre un texte et le background.
+                </p>
+
+                <button class="button products__button">
+                  <span class="step-building">3</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__card accessibility">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-accessibility-4.webp"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Image - Vidéo</h2>
+                <p class="products__description">
+                  Les images et vidéos doivent avoir des alternatives
+                  textuelles.
+                </p>
+
+                <button class="button products__button">
+                  <span class="step-building">4</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__card accessibility">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-accessibility-5.png"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Keyboard</h2>
+                <p class="products__description">
+                  Il doit être possible de naviguer au clavier par tabulation.
+                  En effet, l'utilisation de la souris pose problème à certains
+                  navigateurs.
+                </p>
+
+                <button class="button products__button">
+                  <span class="step-building">5</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__card accessibility">
+              <div class="products__shape">
+                <img
+                  src="assets/img/products-accessibility-6.png"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+
+              <div class="products__data">
+                <h2 class="products__title">Audit final</h2>
+                <p class="products__description">
+                  Il incombe de réaliser un audit afin de valider les règles
+                  d'accessibilité mises en place. Le minima est d'atteindre donc
+                  le niveau AA.
+                </p>
+
+                <button class="button products__button">
+                  <span class="step-building">6</span>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========== QUALITY ============== -->
+      <section class="quality section" id="premium">
+        <div class="quality__container container">
+          <h2 class="section__title">Nos offres Web</h2>
+
+          <div class="quality__content grid">
+            <div class="quality__images">
+              <img
+                src="assets/img/quality1.png"
+                alt=""
+                class="quality__img-big"
+              />
+              <img
+                src="assets/img/quality2.png"
+                alt=""
+                class="quality__img-small"
+              />
+            </div>
+
+            <div class="quality__data">
+              <h2 class="title__check">Création Site Web</h2>
+              <p class="quality__description">
+                Nous concevons votre site web afin qu'il reflète au mieux votre
+                activité et votre marque. Un interlocuteur privilégié vous
+                conseille sur l'ensemble du processus : nom de domaine, mise en
+                ligne, SEO, web accessibility et réseaux sociaux.
+              </p>
+              <h2 class="title__check">Formation Web</h2>
+              <p class="quality__description">
+                Nous assurons des formations web sur mesure. Chaque apprenant
+                est assuré d'être suivi selon son rythme. Le programme de la
+                formation est validé ensemble.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========== LOGOS ============== -->
+      <section class="logo section">
+        <div class="logo__container container grid">
+          <div class="logo__content">
+            <img
+              src="assets/img/logo-1.png"
+              alt="logo langage ed balisage HTML"
+              class="logo__img"
+            />
+            <p class="logo__description">HTML</p>
+          </div>
+          <div class="logo__content">
+            <img
+              src="assets/img/logo-2.png"
+              alt="logo langage de style CSS"
+              class="logo__img"
+            />
+            <p class="logo__description">CSS</p>
+          </div>
+          <div class="logo__content">
+            <img
+              src="assets/img/logo-3.png"
+              alt="logo framework CSS Bootstrap "
+              class="logo__img"
+            />
+            <p class="logo__description">Bootstrap</p>
+          </div>
+          <div class="logo__content">
+            <img
+              src="assets/img/logo-5.png"
+              alt="logo langage Javascript"
+              class="logo__img"
+            />
+            <p class="logo__description">Javascript</p>
+          </div>
+          <div class="logo__content">
+            <img
+              src="assets/img/logo-6.png"
+              alt="logo préprocesseur SASS"
+              class="logo__img"
+            />
+            <p class="logo__description">SASS</p>
+          </div>
+          <div class="logo__content">
+            <img
+              src="assets/img/logo-7.png"
+              alt="logo langage Vue JS"
+              class="logo__img"
+            />
+            <p class="logo__description">VueJS</p>
+          </div>
+          <div class="logo__content">
+            <img
+              src="assets/img/logo-8.png"
+              alt="logo langage PHP"
+              class="logo__img"
+            />
+            <p class="logo__description">PHP</p>
+          </div>
+          <div class="logo__content">
+            <img
+              src="assets/img/logo-4.png"
+              alt="logo langage REACT"
+              class="logo__img"
+            />
+            <p class="logo__description">REACT</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========== BLOG ============== -->
+      <section class="blog section" id="blog">
+        <div class="blog__container container">
+          <h2 class="section__title">Blog web</h2>
+
+          <div class="blog__content grid">
+            <article class="blog__card">
+              <div class="blog__image">
+                <img src="assets/img/blog-1.webp" alt="" class="blog__img" />
+                <a href="#" class="blog__button">
+                  <i class="bx bx-right-arrow-alt"></i>
+                </a>
+              </div>
+
+              <div class="blog__data">
+                <h2 class="blog__title">SEO optimisation</h2>
+
+                <p class="blog__description">
+                  Comment optimiser son référencement. Quelles sont les
+                  principales mesures à mettre en place... et les erreurs à
+                  éviter.
+                </p>
+
+                <div class="blog__footer">
+                  <div class="blog__reaction">
+                    <i class="bx bx-comment"></i>
+                    <span>17</span>
+                  </div>
+                  <div class="blog__reaction">
+                    <i class="bx bx-show"></i>
+                    <span>2.5K</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="blog__card">
+              <div class="blog__image">
+                <img src="assets/img/blog-2.jpg" alt="" class="blog__img" />
+                <a href="#" class="blog__button">
+                  <i class="bx bx-right-arrow-alt"></i>
+                </a>
+              </div>
+
+              <div class="blog__data">
+                <h2 class="blog__title">Web Accessibility</h2>
+
+                <p class="blog__description">
+                  Rendre le site accessible permet à un plus large public de
+                  bénéficier d'une expérience améliorée.
+                </p>
+
+                <div class="blog__footer">
+                  <div class="blog__reaction">
+                    <i class="bx bx-comment"></i>
+                    <span>63</span>
+                  </div>
+                  <div class="blog__reaction">
+                    <i class="bx bx-show"></i>
+                    <span>4.1K</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ F O O T E R  ================== -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Web.</h1>
+
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <div class="footer__contact">
+              <h2 class="footer__subtitle">Contact</h2>
+              <p class="footer__information">
+                ilhami.baysal@yahoo.fr<br />06 24 20 18 73
+              </p>
+            </div>
+          </div>
+
+          <div class="footer__data">
+            <div class="footer__address">
+              <h2 class="footer__subtitle">Adresse</h2>
+              <p class="footer__information">
+                14000 Caen
+                <img
+                  src="assets/img/footerflag.png"
+                  alt=""
+                  class="footer__flag"
+                />
+              </p>
+            </div>
+          </div>
+
+          <div class="footer__data">
+            <div class="footer__office">
+              <h2 class="footer__subtitle">Bureau</h2>
+              <p class="footer__information">
+                Lundi - Vendredi<br />09 h - 18 h
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <ul class="footer__social">
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </ul>
+
+          <span class="footer__copy"> &#169; All rights reserved </span>
+        </div>
+      </div>
+    </footer>
+
+    <!--  ===========  SCROLL UP ======== -->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt"></i>
+    </a>
+    <!-- =========== MIXITUP MIN -=============-->
+    <script src="assets/js/mixitup.min.js"></script>
+    <!-- =========== MAIN JS-=============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
