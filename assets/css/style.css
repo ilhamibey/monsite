@@ -828,6 +828,11 @@ button .bx {
     justify-content: center;
   }
 
+  .logo__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 2rem;
+  }
+
   .footer__newsletter {
     width: 350px;
   }
