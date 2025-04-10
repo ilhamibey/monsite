@@ -810,6 +810,13 @@ button .bx {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .logo__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 2rem;
+  }
+}
+
 /* For medium devices */
 @media screen and (min-width: 576px) {
   .specialty__category {
@@ -826,11 +833,6 @@ button .bx {
   .quality__content {
     grid-template-columns: 450px;
     justify-content: center;
-  }
-
-  .logo__container {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem 2rem;
   }
 
   .footer__newsletter {
